@@ -1,0 +1,1255 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, ins, kbd, q, s, samp,
+small, strike, sub, tt, var, u, i, center,
+dl, dt, dd, ol, ul, li, form,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+/* imported fonts */
+
+@font-face {
+	font-family: gandhi-serif;
+	src: url("/stylesheets/fonts/GandhiSerif-Bold.otf") format("opentype");
+}
+@font-face {
+	font-family: karla;
+	src: url("/stylesheets/fonts/Karla-Regular.ttf") format("opentype");
+}
+/*
+=====================================================================
+	fec_sitestyles.css
+	Ver. 0.8 2003-11-14 by JDG Communications, Inc.
+
+	Validated at http://jigsaw.w3.org/css-validator/validator-uri.html
+
+	This document includes only base styles (NN4/IE5 compatibility).
+	Enhanced styles are loaded from sitestyles_enhanced.css
+	via an @import rule in the html files (prevents NN4 from seeing
+	the enhanced styles).
+	
+	FEC COLOR PALETTE
+	#004477: blue
+	#bb0f00: red
+	#737373: gray 
+
+=====================================================================
+*/
+
+
+/* --------------------------------------------------------------- */
+/* Base HTML Entities */
+
+BODY {
+	position: relative;
+	left: 0;
+	top: 0;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #ffffff;
+	color: #000000;
+}
+
+#fec_mainContent,
+#fec_mainContentWide {
+	min-width: 300px;
+	}
+
+DIV#fec_mainContent P, DIV#fec_mainContent UL, DIV#fec_mainContent LI, DIV#fec_mainContent OL, DIV#fec_mainContent TH, DIV#fec_mainContent TD,
+DIV#fec_mainContentWide P, DIV#fec_mainContentWide UL, DIV#fec_mainContentWide LI, DIV#fec_mainContentWide OL, DIV#fec_mainContentWide TH, DIV#fec_mainContentWide TD {
+	/* margin: 1em 0em; RBL Change made to correct indentation issues. */
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 1.3em;
+	margin-top: 10px;
+}
+
+
+#fec_mainContent H1,
+#fec_mainContentWide H1 {
+	display: inline;
+	margin: 1.5em 0em 0.25em 0em;
+	padding: 3px 9px 3px 9px;
+	font-family: Georgia, Times\ New\ Roman, Times, serif;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 1.1em;
+	color: white;
+	background-image: url("/images/h1_bg.gif");
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+#fec_mainContent H2,
+#fec_mainContentWide H2 {
+	margin: 1.5em 0em 0.25em 0em;
+	font-family: Georgia, Times\ New\ Roman, Times, serif;
+	font-size: 18px;  /* originally 16px */
+	font-weight: bold;
+	line-height: 1.1em;
+	color: #004477;
+}
+
+/* Definition of remaining heads. RBL */
+
+#fec_mainContent H3,
+#fec_mainContentWide H3 {
+	margin: 1.5em 0em 0.25em 0em;
+	font-family: Georgia, Times\ New\ Roman, Times, serif;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 1.1em;
+}
+
+#fec_mainContent H4,
+#fec_mainContentWide H4 {
+	margin: 1.5em 0em 0.25em 0em;
+	font-family: Georgia, Times\ New\ Roman, Times, serif;
+	font-size: 14px; 
+	font-weight: bold;
+	line-height: 1.1em;
+}
+
+#fec_mainContent H5,
+#fec_mainContentWide H5 {
+	margin: 1.5em 0em 0.25em 0em;
+	font-family: Georgia, Times\ New\ Roman, Times, serif;
+	font-size: 12px; 
+	font-weight: bold;
+	line-height: 1.1em;
+}
+
+#fec_mainContent H6,
+#fec_mainContentWide H6 {
+	margin: 1.5em 0em 0.25em 0em;
+	font-family: Georgia, Times\ New\ Roman, Times, serif;
+	font-size: 11px; 
+	font-weight: bold;
+	line-height: 1.1em;
+}
+
+#fec_mainContent th,
+#fec_mainContentWide th {
+	padding: 10px;
+}
+
+#fec_mainContent td,
+#fec_mainContentWide td {
+	padding: 10px;
+}
+
+i, em {
+	font-style: italic;
+}
+
+th.white {
+	color:#FFFFFF;
+	background-color:#004477;
+}
+
+th.large_white {
+	font-size:large;
+	color:#FFFFFF;
+	background-color:#004477;
+}
+
+caption.caption_h3 {
+	margin: 1.5em 0em 0em 0em;
+	font-family: Georgia, Times\ New\ Roman, Times, serif;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 1.1em;
+}
+
+
+
+/* --------------------------------------------------------------- */
+/* DIV and CLASS definitions */
+
+DIV#fec_skipNav {
+	position: absolute;
+	right: 12px;
+	top: 40px;
+	color: #737373;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+}
+
+DIV#fec_logoArea {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 3;
+}
+
+DIV#fec_nameArea {
+	position: absolute;
+	left: 159px;
+	top: 0px;
+}
+
+/*DIV#fec_mainToolbar {
+	position: absolute;
+	left: 0px;
+	top: 66px;
+	height: 26px;
+	width: 100%;
+	min-width: 600px;
+	background: #bb0f00;
+	z-index: 2;
+	text-align: right;
+}*/
+
+DIV#fec_breadcrumbs {
+	margin: 73px 0px 33px 100px;
+	padding-left: 12px;
+	padding-bottom: 6px;
+	border-bottom: solid 1px #737373;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #737373;
+	display: none;
+}
+
+DIV#fec_breadcrumbsCalApp {
+	margin: 100px 0px 12px 159px;
+	padding-left: 12px;
+	padding-bottom: 6px;
+	border-bottom: solid 1px #737373;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #737373;
+}
+
+DIV#fec_mainContent {
+	/* margin: 36px 120px 0px 186px;  RBL Change made to correct indentation issues. */
+	margin: 20px 120px 20px 100px;
+}
+
+DIV#fec_mainContent ul, DIV#fec_mainContentWide ul,
+DIV#fec_mainContent ol {
+	margin-left: 20px;	
+}
+
+DIV#fec_mainContent li {
+	margin-top: 5px;	
+}
+
+DIV#fec_mainContent hr {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;	
+	width: 100%;
+	border-top: 1px solid #000;
+}
+
+/******* Streaming Content for agenda pages ******/
+DIV#fec_mainContent #streaming_info,
+DIV#fec_mainContentWide #streaming_info {
+	border: 2px solid #dedede;
+	width: 165px;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+DIV#fec_mainContent #streaming_info ul,
+DIV#fec_mainContentWide #streaming_info ul {
+	margin: 0;	
+}
+
+DIV#fec_mainContent #streaming_info li,
+DIV#fec_mainContentWide #streaming_info li,
+.sliderkit-panel-text li.video,
+.sliderkit-panel-text li.audio,
+.sliderkit-panel-text li.cc {
+	list-style-type: none;
+	padding: 5px 0 0 30px;
+	font-size: 14px;
+	margin: 0;	
+}
+
+DIV#fec_mainContent #streaming_info li.audio,
+DIV#fec_mainContentWide #streaming_info li.audio,
+.sliderkit-panel-text li.audio {
+	background: transparent url(../audio/images/audio.png) no-repeat 0 6px;
+}
+
+DIV#fec_mainContent #streaming_info li.cc,
+DIV#fec_mainContentWide #streaming_info li.cc,
+.sliderkit-panel-text li.cc {
+	background: transparent url(/images/cc_icon.png) no-repeat 0 6px;
+}
+
+DIV#fec_mainContent #streaming_info li.video,
+DIV#fec_mainContentWide #streaming_info li.video,
+.sliderkit-panel-text li.video {
+	background: transparent url(/images/play_icon.png) no-repeat 0 3px;
+}
+
+DIV#fec_footer {
+	margin-top: 36px;
+	margin-left: 186px;
+}
+
+DIV#fec_homeContent {
+	margin: 65px 0px 0px 186px;
+	padding: 26px 0px 0px 0px;
+	background-image: url("/images/hp_flag_bg.jpg");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+
+DIV#fec_mainContentWide {
+	/* margin: 36px 24px 0px 186px;  RBL Change made to correct indentation issues. */
+	margin: 36px 24px 0px 70px;
+}
+
+DIV#fec_mainContentCalApp {
+	/* Style for content of Calendar Application. Note that there are some other styles defined within this DIV, below. RBL */
+	margin: 0px 24px 0px 200px; /* Reduced from 36 24 0 222 */
+}
+DIV#fec_mainContentMicrostrategy {
+	/* JWC added to correct indentation issues. */
+	margin: 36px 120px 0px 162px;
+	
+}
+
+DIV#fec_leftToolbar {
+	position: absolute;
+	left: 12px;
+	top: 235px;
+	width: 145px;
+}
+
+DIV#textscroll {
+	/*RBL 2005-11-03 positions text scroll using CSS rather than tables*/
+	background-color: #DFE6F2;
+	margin-left: 186px;
+	margin-right: 0px;
+	margin-top: 0px;
+	width: 100%;
+	height: 26px;
+	vertical-align: middle;
+}
+
+.fec_homeBox {
+	width: 435px;
+	margin-top: 18px;
+}
+/* Commented out because is superceded, below -- RBL
+.fec_searchForm {
+	margin: 0px;
+	padding: 0px 24px 0px 0px;
+}
+*/
+
+.fec_homeBoxTop {
+	width: 435px;
+	height: 14px;
+	margin: 0px;
+	padding: 0px;
+	font-size: 8px;
+	line-height: 8px;
+	background-image: url("/images/hp_box_top.gif");
+	background-repeat: no-repeat;
+}
+
+.fec_homeBoxBody {
+	width: 435px;
+	margin: 0px;
+	padding: 0px;
+	background-image: url("/images/hp_box_mid.gif");
+	background-repeat: repeat-y;
+}
+
+.fec_homeBoxBot {
+	width: 435px;
+	height: 28px;
+	margin: 0px;
+	padding: 0px;
+	font-size: 8px;
+	line-height: 8px;
+	background-image: url("/images/hp_box_bot.gif");
+	background-repeat: no-repeat;
+}
+
+/* THE FOLLOWING ACCOMMODATE WIDER CONTENT ON THE HOME PAGE */
+.fec_homeBox_wide {
+	width: 636px;
+	margin-top: 10px;
+}
+.fec_homeBoxTop_wide {
+	width: 636px;
+	height: 14px;
+	margin: 0px;
+	padding: 0px;
+	font-size: 8px;
+	line-height: 8px;
+	background-image: url("/images/hp_box_top_wide.gif");
+	background-repeat: no-repeat;
+}
+.fec_homeBoxBody_wide {
+	width: 636px;
+	margin: 0px;
+	padding: 0px;
+	background-image: url("/images/hp_box_mid_wide_p.png");
+	background-repeat: repeat-y;
+}
+.fec_homeBoxBot_wide {
+	width: 636px;
+	height: 28px;
+	margin: 0px;
+	padding: 0px;
+	font-size: 8px;
+	line-height: 8px;
+	background-image: url("/images/hp_box_bot_wide_p.png");
+	background-repeat: no-repeat;
+}
+.fec_homeBoxBody_wide P {
+	font-family: Georgia, Times\ New\ Roman, Times, serif;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: normal;
+	/*color: #000000;*/
+	margin: 0px 28px 0px 14px;
+}
+.fec_homeBoxBody_wide P.STRONG {
+	font-weight: bold;
+}
+
+.p_fec_homeBoxTop_wide {
+	width: 570px;
+	height: 14px;
+	margin: 0px;
+	padding: 0px;
+	font-size: 8px;
+	line-height: 8px;
+	background-image: url("/images/p_hp_box_top_wide.gif");
+	background-repeat: no-repeat;
+}
+.p_fec_homeBoxBody_wide {
+	width: 570px;
+	margin: 0px;
+	padding: 0px;
+	background-image: url("/images/p_hp_box_mid_wide.gif");
+	background-repeat: repeat-y;
+}
+.p_fec_homeBoxBot_wide {
+	width: 570px;
+	height: 28px;
+	margin: 0px;
+	padding: 0px;
+	font-size: 8px;
+	line-height: 8px;
+	background-image: url("/images/p_hp_box_bot_wide.gif");
+	background-repeat: no-repeat;
+}
+.p_fec_homeBoxBody_wide P {
+	font-family: Georgia, Times\ New\ Roman, Times, serif;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: normal;
+	color: #000000;
+	margin: 0px 28px 0px 14px;
+}
+.p_fec_homeBoxBody_wide P.STRONG {
+	font-weight: bold;
+}
+
+/*.fec_submitBtn {
+	position: relative;
+	top: 4px;
+
+
+.fec_searchForm {
+	margin: 0px;
+	padding: 0px 18px 0px 0px;
+}*/
+.search_text_field {
+	text-align:right;
+}
+
+
+/* --------------------------------------------------------------- */
+/* DIV and class HTML Entities */
+
+DIV#fec_skipNav A:link, DIV#fec_skipNav A:visited, DIV#fec_skipNav A:active {
+	color: #737373;
+}
+
+/* DIV#fec_mainContent P, DIV#fec_mainContent H1 {
+ 	margin-left: 36px;
+}
+
+DIV#fec_mainContent UL, { 
+	margin: 0px 0px 0px 72px;
+ }
+
+DIV#fec_mainContent LI, {
+	margin: 0px 0px 0px 0px;
+}  RBL Change made to correct indentation issues. */
+
+/*.fec_searchForm FORM {
+	margin: 0px;
+	padding: 0px;
+}*/
+
+
+
+.fec_homeBoxBody P {
+	font-family: Georgia, Times\ New\ Roman, Times, serif;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: normal;
+	color: #000000;
+	margin: 0px 28px 0px 14px;
+}
+
+.fec_homeBoxBody P.STRONG {
+	font-weight: bold;
+}
+
+/* tag added by RBL to change from default link color*/
+/* color changed from #00335a by RBL 20080221 to remove visited difference*/
+DIV#fec_mainContent A:link, DIV#fec_mainContentWide A:link, DIV#fec_mainContentCalApp A:link, DIV#fec_mainContentMicrostrategy A:link {
+	color: #004477;
+}
+
+/* tag added by RBL to change from default visited link color (this color leaves visited link the same as link. The order here is important; if this had been last then the hover link color would not show for visited items.) */
+DIV#fec_mainContent A:visited, DIV#fec_mainContentWide A:visited, DIV#fec_mainContentCalApp A:visited, DIV#fec_mainContentMicrostrategy A:visited {
+	color: #004477; 
+}
+
+/* tag added by RBL to change from default hover link color*/
+DIV#fec_mainContent A:hover, DIV#fec_mainContentWide A:hover, DIV#fec_mainContentCalApp A:hover, DIV#fec_mainContentMicrostrategy A:hover {
+	color: #BB0F00;
+}
+
+DIV#fec_leftToolbar UL {
+	margin: 0px 0px 18px 0px;
+	list-style: none;
+	padding-left: 0px;
+}
+
+DIV#fec_leftToolbar LI {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	line-height: 12px;
+	margin: 6px 0px 6px 0px;
+}
+
+DIV#fec_leftToolbar A:link, DIV#fec_leftToolbar A:visited, DIV#fec_leftToolbar A:active {
+	color: #bb0f00;
+	text-decoration: none;
+}
+
+DIV#fec_leftToolbar A:hover {
+	text-decoration: underline;
+}
+
+.fec_footerLinks UL {
+	margin: 14px 0px 14px 0px;
+	list-style: none;
+	padding-left: 0px;
+}
+
+.fec_footerLinks LI {
+	display: inline;
+	margin: 0px 8px 0px 0px;
+	padding-left: 10px;
+	padding-top: 8px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	background-image: url("/images/fn_sep_l.gif");
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+.fec_footerLinks A:link, .fec_footerLinks A:visited, .fec_footerLinks A:active {
+	text-decoration: none;
+	color: #737373;
+}
+
+.fec_footerLinks A:hover {
+	text-decoration: underline;
+}
+
+.fec_footerInfo P {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+	line-height: 11px;
+}
+
+.fec_footerInfo A:link, .fec_footerInfo A:visited, .fec_footerInfo A:active {
+	text-decoration: none;
+	font-weight: bold;
+	color: #bb0f00;
+}
+
+.fec_footerInfo A:hover {
+	text-decoration: underline;
+}
+
+DIV#fec_breadcrumbs A:link, DIV#fec_breadcrumbs A:visited, DIV#fec_breadcrumbs A:active, DIV#fec_breadcrumbsCalApp A:link, DIV#fec_breadcrumbsCalApp A:visited, DIV#fec_breadcrumbsCalApp A:active  {
+	text-decoration: none;
+	color: #737373;
+}
+
+DIV#fec_breadcrumbs A:hover, DIV#fec_breadcrumbsCalApp A:hover {
+	text-decoration: underline;
+}
+
+.breadcrumbs_curPage {
+	color: #bb0f00;
+}
+
+a.white {
+	color:#FFFFFF;
+}
+
+
+.scrolling_text {
+	font-family: Verdana;
+	font-size: 14px;
+}
+.scrolling_text A:link, .scrolling_text A:visited {
+	color: #004477;
+}
+.scrolling_text A:hover  {
+	color: #bb0f00;
+}
+.scrolling_text A:active {
+	color: #bb0f00;
+	text-decoration: none;
+}
+DIV#ul123 {
+    left: 0;
+    position: absolute;
+    top: 479px;
+    z-index: 3;
+}
+
+.main-panel {
+    /*background: url("/images/homepage/homecontent/panel-pad-bg_fec_11.jpg") no-repeat scroll center top transparent;*/
+    background:#004477; 
+    height: 60px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 605px;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+/********* DE Search Box ********************/
+#fec_mainToolbar {
+	position: relative;	
+	top: 66px;
+	height: 26px;
+	width: 100%;
+	min-width: 600px;
+	background: #bb0f00;
+	overflow: hidden;
+}
+
+#fec_mainToolbar .fec_searchForm form {
+	position: absolute;
+	right: 20px;
+	height: 26px;
+}
+
+#fec_mainToolbar .fec_searchForm form > font {
+	position: absolute;
+	top: 5px;
+	right: 186px;	
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+	width: 100px;
+}
+
+#fec_mainToolbar .fec_searchForm form > input {
+	position: absolute;
+	top: 6px;
+	right: 32px;
+	border: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 150px;
+}
+
+#fec_mainToolbar .fec_searchForm .fec_submitBtn {
+	position: absolute;
+	top: 3px;
+	right: 3px;
+}
+
+#enhanced_search {
+	border: 1px solid #000000;
+	margin-top: 10px;
+	width: 634px;
+	overflow: hidden;
+	display: block;
+}
+
+#enhanced_search > img {
+	margin-right: 10px;	
+	float: left;
+	border: none;
+}
+
+#enhanced_search p {
+	font: 21px Verdana, Geneva, sans-serif;
+	float: left;
+	margin-top: 5px;
+	text-shadow: 1px 1px 2px #888; /* Chrome, Firefox 3.5+, IE 10+, Opera 9+, Safari 1+ */
+}
+
+#fec_mainContentWide #enhanced_search {
+	width: 230px;	
+}
+
+#fec_mainContentWide #enhanced_search p {
+	font: 17px Verdana, Geneva, sans-serif;
+	text-shadow: none;
+	margin-top: 10px;
+}
+
+#enhanced_search p span {
+	font-size: 15px;	
+	font-weight: bold;
+	text-shadow: none;
+}
+
+/********* PDF Disclaimer ******************/
+
+#pdf_disclaimer {
+	background-color: #D5EBF2;
+	padding: 20px;	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 1.3em;
+	margin-top: 30px;
+	border: 3px solid #E1E4E6;
+  -webkit-border-radius: 12px; /* Android ≤ 1.6, iOS 1-3.2, Safari 3-4 */
+          border-radius: 12px; /* Android 2.1+, Chrome, Firefox 4+, IE 9+, iOS 4+, Opera 10.50+, Safari 5+ */
+
+  /* useful if you don't want a bg color from leaking outside the border: */
+  background-clip: padding-box; /* Android 2.2+, Chrome, Firefox 4+, IE 9+, iOS 4+, Opera 10.50+, Safari 4+ */
+}
+
+/******** Commissioner Titles *************/
+#comm_title{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #a22538; 
+	background-image:none; 
+	font-size:30px; 
+	padding: 0; 
+	margin-bottom: 20px; 
+	display: block;	
+	text-shadow: 2px 1px 6px #888; /* Chrome, Firefox 3.5+, IE 10+, Opera 9+, Safari 1+ */
+}
+
+/******** Contact Information Commissioners Pages *************/
+#fec_mainContent div.contact {
+	border: 1px solid #666;
+	padding: 0 15px 15px 15px;
+	margin-bottom: 15px;
+  -webkit-border-radius: 6px; /* Android ≤ 1.6, iOS 1-3.2, Safari 3-4 */
+          border-radius: 6px; /* Android 2.1+, Chrome, Firefox 4+, IE 9+, iOS 4+, Opera 10.50+, Safari 5+ */
+
+  /* useful if you don't want a bg color from leaking outside the border: */
+  background-clip: padding-box; /* Android 2.2+, Chrome, Firefox 4+, IE 9+, iOS 4+, Opera 10.50+, Safari 4+ */
+}
+
+#fec_mainContent div.contact h2 {
+	font-size: 14px;
+	margin-top: 20px;
+	margin-bottom: -6px;
+}
+
+#fec_mainContent div.contact p {
+	font-size: 12px;	
+}
+
+/***************** Archive Commissioner's Page Styles ******************************/
+
+#commissioners_archive table tr th {
+	color:#FFF;
+	font-weight: bold;	
+	background-color: #004080;
+}
+
+#commissioners_archive table.commission_table tr.even {
+	background-color: #F5F0FF;
+}
+
+#commissioners_archive sup {
+	font-size: 7px;
+}
+
+
+/***************** FEC Print Styles ******************************/
+
+/* The declarations for print output */
+@media print {
+
+
+	DIV#fec_mainContent,
+	DIV#fec_mainContentWide {
+		margin: 36px !important;
+	}
+	
+	/* Hide everything unneeded */
+	#banner, #fec_footer, #fec_logoArea, #fec_mainToolbar, #fec_breadcrumbs, #breadcrumbs, nofollow, .leftsection, #fec_nameArea, #dmbTBBack1, #dmbTB2, #dmbTBBack2, #fec_skipNav, .left_menu_bottom_border, .left_menu_right_border {
+		display: none;
+	}
+	
+}
+
+/************** FEC Record Styles **************************/
+
+#fecrecord_articles_wrapper {
+	margin-top: 20px;
+}
+
+table#fecrecord_articles {
+	margin-top: 1px;	
+}
+
+table#fecrecord_articles th {
+	background-color: #004477;
+	color: #FFF;
+	cursor: pointer;
+	padding: 4px;
+	background: #004477 url('/images/app_img/arrow/arrow_off.png') no-repeat 5px center;
+	text-align: left;
+	padding-left: 20px;
+}
+
+table#fecrecord_articles th.sorting_asc {
+	background: #004477 url('/images/app_img/arrow/arrow_up.png') no-repeat 5px center;
+}
+
+table#fecrecord_articles th.sorting_desc {
+	background: #004477 url('/images/app_img/arrow/arrow_down.png') no-repeat 5px center;
+}
+
+table#fecrecord_articles tr.even {
+	background-color: #F5F0FF;
+}
+
+table#fecrecord_articles .sorting_1 {
+	background-color: #DBD5E6;
+}
+
+table#fecrecord_articles tbody td {
+	padding: 5px;	
+}
+
+.dataTables_length {
+	float: right;	
+}
+
+.dataTables_filter,
+.dataTables_length,
+.dataTables_info,
+.filter_title
+ {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 1.3em;
+	font-weight: bold;
+}
+
+.dataTables_info {
+	margin-top: 5px;	
+}
+
+.dataTables_paginate {
+	margin-top: 10px;	
+}
+
+.dataTables_paginate a {
+	background-color: #004477;
+	color: #FFF;	
+	padding: 5px;
+	cursor: pointer;
+	-webkit-border-radius: 5px; /* Android â‰¤ 1.6, iOS 1-3.2, Safari 3-4 */
+    border-radius: 5px; /* Android 2.1+, Chrome, Firefox 4+, IE 9+, iOS 4+, Opera 10.50+, Safari 5+ */
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	vertical-align: top;
+}
+
+DIV#fec_mainContent .dataTables_paginate a:hover {
+	background-color: #0066B3;
+	color: #FFF;
+}
+
+#fecrecord_articles_wrapper .paginate_enabled_next,
+#fecrecord_articles_wrapper .paginate_disabled_next {
+	margin-left: 20px;	
+}
+
+.dataTables_paginate a.paginate_disabled_next,
+DIV#fec_mainContent .dataTables_paginate a:hover.paginate_disabled_next,
+.dataTables_paginate a.paginate_disabled_previous,
+DIV#fec_mainContent .dataTables_paginate a:hover.paginate_disabled_previous {
+	background-color: #666;	
+	cursor: default;
+	font-weight: bold;
+}
+
+.filter_container {
+	margin-bottom: 10px;	
+}
+
+.filter_title {
+	display: block;
+	margin-top: 10px;	
+	font-weight: bold;
+}
+
+.filter_container input {
+	background-color: #004477;	
+	padding: 5px;
+	color: #FFF;
+	cursor: pointer;
+	border: none;
+	font-weight: bold;
+	-webkit-border-radius: 5px; /* Android â‰¤ 1.6, iOS 1-3.2, Safari 3-4 */
+    border-radius: 5px; /* Android 2.1+, Chrome, Firefox 4+, IE 9+, iOS 4+, Opera 10.50+, Safari 5+ */
+}
+
+.filter_container input#reset {
+	margin-top: 10px;
+}
+
+.dataTables_wrapper .highlight {
+	background-color: yellow;	
+}
+DIV#fec_mainContent a#record_email_subscription {
+	display: block;
+	background-color: #3f75ad;
+	padding: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #fff;
+	line-height: 1.3em;
+	margin-top: 15px;
+	border: 1px #000 solid;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+	background-clip: padding-box;
+	width: 475px;
+	text-decoration: none;
+}
+
+DIV#fec_mainContent a:hover#record_email_subscription{
+	background-color: #5196E0;	
+	color: #FFF;
+}
+
+#record_email_subscription img {
+	margin-right: 5px;	
+}
+
+#record_contact {
+	background-color: #D5EBF2;
+	padding: 20px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 1.3em;
+	margin-top: 30px;
+	border: 3px solid #E1E4E6;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+	background-clip: padding-box;
+}
+
+/***** EQS Bullet Styles **********/
+
+#eqs_mainContent li {
+	margin: 0;	
+}
+
+#eqs_mainContent ul {
+	margin-left: 40px;	
+}
+
+DIV#fec_mainContent #SearchInput ul {
+	margin-bottom: 20px;	
+	margin-left: 60px;
+}
+
+/******* SERS Bullet Styles ******/
+
+#fullview li {
+	margin: 0;	
+}
+
+#fullview ul > ul {
+	margin: 0 0 0 40px;
+}
+
+#fullview ul.ul_associatedPlayer {
+	margin-top: 0;	
+}
+
+/******* Page styles for /pages/sers_nic_note.htm ******/
+#sers_note ul > li {
+	margin-left: 30px;
+	list-style-type:disc;
+}
+
+#sers_note ul > ul {
+	margin-left: 30px;
+}
+
+#sers_note ul > ul > li  {
+	list-style-type:circle;
+}
+
+/******** Styles for Feature on Chair Ravel's web page **************/
+
+#commissioner_feature {
+	border: 1px solid #ccc;
+	width: 510px;	
+	margin: 20px 0;
+}
+
+#commissioner_feature.ravel {
+	background: transparent url(../images/capitolBldg2.jpg) no-repeat right -120px;
+}
+
+#commissioner_feature.weintraub {
+	background: transparent url(../images/standing_graphic.jpg) no-repeat 24px bottom;
+}
+
+#commissioner_feature h3 {
+	background-color: #EBF0F2;	
+	margin: 0;
+	padding: 8px;
+	border-bottom: 10px solid #519ad5;
+}
+
+#commissioner_feature h4 {
+	padding-left: 30px;	
+}
+
+#commissioner_feature ul {
+	padding: 10px 25px 140px 25px;	
+	margin: 0;
+	font-size: 14px;
+}
+
+#commissioner_feature.ravel ul {
+	padding: 0 257px 175px 25px;	
+	margin-left: 0;
+	margin-top: 10px;
+}
+
+#commissioner_feature li {
+	font-size: 14px;
+}
+
+DIV#fec_mainContent #commissioner_feature li a {
+	text-decoration: none;	
+	color: #000f82;
+	font-weight: bold;
+}
+
+DIV#fec_mainContent #commissioner_feature li a:hover {
+	color: #000FFB;
+	text-decoration: underline;	
+}
+
+/*** Homepage Sliderkit Styles ****/
+
+div.fec_homeBox_wide .sliderkit-panel-text ul,
+div.fec_homeBox_wide .sliderkit-panel-text li  {
+	margin-top: 3px;
+	font-size: 11px;
+}
+
+/* added by jc to make menu item, upper right triangle turn blue on hover  */
+#dmbTBBack1 div div+div img~img{
+z-index:1	
+}
+
+/*** FEC Top Banner ****/
+/* large */
+#banner {
+    background-color: #164f85;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    height: 66px;
+    width: 380px;
+    overflow: hidden;
+}
+
+#banner a {
+	color: #fff;
+	display: inline-block;
+	position: relative;
+	border-bottom: 2px dotted #fff;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#banner .title {
+	font-family: 'gandhi-serif';
+	font-size: 28px;
+	color: #fff;
+	text-align: center;
+	margin-top: 5px;
+}
+
+#banner .subtitle {
+	font-family: 'karla';
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	margin-top: 5px;
+}
+
+/* small */
+#banner.small {
+    top: 0;
+    z-index: 100;
+    height: 18px;
+    width: 100%;
+    font-family: 'karla';
+}
+
+#banner.small .title {
+	font-size: 12px;
+	text-align: center;
+	float: left;
+}
+
+#banner.small .subtitle {
+	font-size: 12px;
+	text-align: center;
+	float: left;
+}
+
+/* Page Alert Banner Styles */
+
+.page__alert__container {
+	display: table-cell;
+	width:7%;
+
+}
+
+.page--alert p {
+	display: table-cell;
+	width: 66%;
+	vertical-align: middle;
+}
+
+ul.top-links {
+	margin-left: 100px;
+}
+
+ul.top-links li {
+	float: left;
+	border: 1px solid #000;
+	padding: 2rem;
+}
+
+/* Subnav styles */
+
+#submenu {
+	margin-top: 2rem;
+	margin-bottom: 3rem;
+	padding-bottom: 0.5rem;
+    border-bottom: .01rem solid #aeb0b5;
+}
+
+#submenu li {
+	float:left;
+    color: #112e51;
+}
+
+#submenu li a {
+	color: #212121;
+    cursor: pointer;
+    text-align: center;
+    padding: 1rem 3rem 0 2rem;
+    border-bottom: none;
+    display:block;
+}
+
+#submenu li a span {
+	border-bottom: 0.5rem solid transparent;
+}
+
+#submenu li a:hover span {
+	border-bottom: 0.5rem solid #164f85;
+	padding-bottom: 0.5rem;
+}
+
+@media only screen and (max-width: 45em){
+  #submenu li {
+    float: none;}
+  #submenu li a {
+    text-align: left;} 
+}
+
+/*.site-nav__panel.site-nav__panel--sub {
+	margin-top: 5rem;
+	border-bottom: 1px solid #000;
+	overflow: auto;
+	padding:0;
+	z-index:-1;
+}
+
+.site-nav__panel--sub .site-nav__link {
+    background: none;
+    margin-right: 3rem;
+}
+
+.site-nav__panel--sub .site-nav__item a {
+	padding: 0 0 1.5rem 0;
+	text-align: center;
+    border-bottom: 0.5rem solid transparent;
+    cursor:pointer;
+}
+
+a.site-nav__link.is-parent, a.site-nav__link:hover{
+    border-color: #164f85;
+}*/
