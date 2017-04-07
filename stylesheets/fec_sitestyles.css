@@ -1230,26 +1230,8 @@ ul.top-links li {
     text-align: left;} 
 }
 
-/*.site-nav__panel.site-nav__panel--sub {
-	margin-top: 5rem;
-	border-bottom: 1px solid #000;
-	overflow: auto;
-	padding:0;
-	z-index:-1;
+@media only screen and (max-width: 30em){
+  DIV#fec_mainContent {
+    margin-left:25px;} 
 }
 
-.site-nav__panel--sub .site-nav__link {
-    background: none;
-    margin-right: 3rem;
-}
-
-.site-nav__panel--sub .site-nav__item a {
-	padding: 0 0 1.5rem 0;
-	text-align: center;
-    border-bottom: 0.5rem solid transparent;
-    cursor:pointer;
-}
-
-a.site-nav__link.is-parent, a.site-nav__link:hover{
-    border-color: #164f85;
-}*/
