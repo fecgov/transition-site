@@ -1,18 +1,5 @@
 <!--STARTNAV-->
-    <a href="#main" class="skip-nav">skip navigation</a>
-    <div class="js-banner new-site-banner slab--neutral">
-      <div class="js-banner-min container" aria-hidden="false">
-        <p class="t-sans">Welcome to the new fec.gov &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If you can't find what you need, use the <a href="http://www.fec.gov">classic FEC.gov</a></p>
-        <button class="js-open-banner button--open">Show more</button>
-      </div>
-      <div class="js-banner-max container" aria-hidden="true">
-        <p class="t-sans"><strong>Welcome to the new fec.gov</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If you can't find what you need, use <a href="http://www.fec.gov">classic.fec.gov</a></p>
-        <p><a class="button button--cta button--primary button--tour">START THE TOUR</a></p>
-        <p class="t-sans">Questions or comments? use the <a>anonymous feedback tool</a> or email us at <a>betafeedback@fec.gov</a></p>
-        <button class="js-close-banner button--close">Show less</button>
-      </div>
-    </div>
-    
+    <a href="#main" class="skip-nav">skip navigation</a>    
     <header class="site-header">
       <div class="masthead">
         <div class="disclaimer">
