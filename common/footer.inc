@@ -9,16 +9,16 @@
           <div class="grid__item">
             <ul>
               <li>
-                <a href="/about/">About the FEC</a>
+                <a href="http://beta.fec.gov/about/">About the FEC</a>
               </li>
               <li>
-                <a href="/about/careers/">Careers</a>
+                <a href="http://beta.fec.gov/about/careers/">Careers</a>
               </li>
               <li>
-                <a href="/contact-us/">Contact</a>
+                <a href="http://beta.fec.gov/contact-us/">Contact</a>
               </li>
               <li>
-                <a href="/press/">Press</a>
+                <a href="http://beta.fec.gov/press/">Press</a>
               </li>
             </ul>
           </div>
@@ -27,10 +27,10 @@
             <ul>
               
               <li>
-                <a href="/about/plain-language/">Plain language</a>
+                <a href="http://beta.fec.gov/about/plain-language/">Plain language</a>
               </li>
               <li>
-                <a href="/about/no-fear-act/">No FEAR Act</a>
+                <a href="http://beta.fec.gov/about/no-fear-act/">No FEAR Act</a>
               </li>
             </ul>
           </div>
@@ -66,7 +66,7 @@
           <div class="grid__item">
             <ul>
               <li>
-                <a href="/updates/">Latest updates</a>
+                <a href="http://beta.fec.gov/updates/">Latest updates</a>
               </li>
             </ul>
           </div>
