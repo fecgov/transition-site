@@ -7,10 +7,10 @@
       <span class="disclaimer__left">This site is in beta, visit <a href="http://www.fec.gov">FEC.gov</a></span>
       <span class="disclaimer__right">
         An official website of the United States Government
-        <img src="/data/static/img/us_flag_small.png" alt="US flag signifying that this is a United States Federal Government website">
+        <img src="/static/img/us_flag_small.png" alt="US flag signifying that this is a United States Federal Government website">
       </span>
     </div>
-    <img src="/data/static/img/print-logo.png" class="u-print-only" alt="FEC logo">
+    <img src="/static/img/print-logo.png" class="u-print-only" alt="FEC logo">
     <a title="Home" href="https://beta.fec.gov/" rel="home" class="site-title"><span class="u-visually-hidden">Federal Election Commission | United States of America</span></a>
     <ul class="utility-nav list--flat">
       <li class="utility-nav__item"><a href="https://beta.fec.gov/calendar/">Calendar</a></li>
