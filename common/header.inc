@@ -13,7 +13,7 @@
 <!-- Twitter
 ================================================== -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Registration and reporting - betaFEC">
+<meta name="twitter:title" content="FEC Transition Site - transition.fec.gov">
 <meta name="twitter:description" content="Explore federal campaign finance data with betaFEC, a new site where users can see how much money is raised and spent in federal elections. An official U.S. Government site, betaFEC is a Federal Election Commission project, designed in partnership with 18F.">
 <meta name="twitter:image" content="https://beta.fec.gov/static/img/beta-fec-tw.png">
 

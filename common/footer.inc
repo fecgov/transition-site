@@ -1,37 +1,85 @@
 <!--STARTFOOTER-->
     <nav class="footer-links">
       <div class="container">
-        <div class="footer-links__column">
-          <ul>
-            <li>
-              <a href="https://github.com/18F/fec">GitHub repository</a>
-            </li>
-            <li>
-              <a href="https://github.com/18F/FEC/blob/master/release_notes/release_notes.md">Release notes</a>
-            </li>
-          </ul>
-          <ul>
-            <li>
-              <a href="contact-us/">Contact us</a>
-            </li>
-            <li>
-              <a href="about/">About</a>
-            </li>
-            <li>
-              <a href="http://beta.fec.gov/press/">Press</a>
-            </li>
-            <li>
-              <a href="updates/">Latest updates</a>
-            </li>
-          </ul>
+
+        <div class="grid grid--6-wide">
+
+          <div class="grid__item"></div>
+
+          <div class="grid__item">
+            <ul>
+              <li>
+                <a href="/about/">About the FEC</a>
+              </li>
+              <li>
+                <a href="/about/careers/">Careers</a>
+              </li>
+              <li>
+                <a href="/contact-us/">Contact</a>
+              </li>
+              <li>
+                <a href="/press/">Press</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="grid__item">
+            <ul>
+              
+              <li>
+                <a href="/about/plain-language/">Plain language</a>
+              </li>
+              <li>
+                <a href="/about/no-fear-act/">No FEAR Act</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="grid__item">
+            <ul>
+              <li>
+                <a href="https://api.open.fec.gov/">OpenFEC API</a>
+              </li>
+              <li>
+                <a href="https://github.com/18F/fec">GitHub repository</a>
+              </li>
+              <li>
+                <a href="https://github.com/18F/FEC/blob/master/release_notes/release_notes.md">Release notes</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="grid__item">
+            <ul>
+              <li>
+                <a href="https://www.data.gov/open-gov/">Open government</a>
+              </li>
+              <li>
+                <a href="https://www.foia.gov/">FOIA</a>
+              </li>
+              <li>
+                <a href="https://www.usa.gov/">USA.gov</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="grid__item">
+            <ul>
+              <li>
+                <a href="/updates/">Latest updates</a>
+              </li>
+            </ul>
+          </div>
+
         </div>
+
       </div>
     </nav>
 
     <footer class="footer">
       <div class="container">
         <div class="seal">
-          <img class="seal__img" width="140" height="140" src="https://beta.fec.gov/static/img/seal--inverse.svg" alt="Seal of the Federal Election Commission | United States of America">
+          <img class="seal__img" width="140" height="140" src="/static/img/seal--inverse.svg" alt="Seal of the Federal Election Commission | United States of America">
           <p class="address__title">Federal Election Commission</p>
         </div>
 
@@ -51,7 +99,6 @@
 
           <p>999 E Street, NW<br>
           Washington, DC 20463</p>
-          <p>(800) 424-9530</p>
         </div>
       </div>
     </footer>
@@ -78,8 +125,8 @@
       window.API_LOCATION = 'https://api.open.fec.gov';
       window.API_VERSION = 'v1';
       window.API_KEY = 'oXyFx4md0kTkxxq9JNfIRlrOPorXc60dqOVEs4GE';
+      window.TRANSITION_URL = 'https://transition.fec.gov';
     </script>
-
     
     <script type="text/javascript" src="/app_javascript/main.js"></script>
     

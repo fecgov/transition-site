@@ -60,7 +60,7 @@
   <nav id="submenu" class="container">
     <ul>
       <li>
-        <a href="/info/compliance.shtml">
+        <a href="/index.html">
           <span>Help with reporting and compliance</span>
         </a>
       </li>
