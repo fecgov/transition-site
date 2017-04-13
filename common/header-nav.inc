@@ -1,6 +1,22 @@
 <!--STARTNAV-->
 <a href="#main" class="skip-nav" tabindex="0">skip navigation</a>
 
+<div class="js-new-site-orientation site-orientation">
+  <div class="banner" role="banner">
+    <div class="container">
+      <span class="t-bold">In May, this site will become the new FEC.gov</span>
+    <div class="toggle" aria-hidden="false">
+        <span class="t-block">After that, the <a href="http://www.fec.gov">current FEC.gov</a> will be archived and made available at classic.fec.gov</span>
+        <span class="t-block">Questions or comments? Use our <a class="js-feedback">anonymous feedback tool</a> or email <a href="mailto:webmanager@fec.gov">webmanager@fec.gov</a></span>
+        <div class="tour__start"><button class="tour__start__button">Start a tour</button> of the new features</div>
+    </div>
+    <div class="toggle-text" aria-expanded="true">
+        <button class="less" aria-hidden="false" tabindex="0">Show less <i class="icon-small--arrow-up-border"></i></button>
+        <button class="more" aria-hidden="true" tabindex="0">Show more <i class="icon-small--arrow-down-border"></i></button>
+    </div>
+  </div>
+</div>
+
 <header class="site-header">
   <div class="masthead">
     <div class="disclaimer">
