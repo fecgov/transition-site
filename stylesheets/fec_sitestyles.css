@@ -225,7 +225,7 @@ DIV#fec_nameArea {
 	text-align: right;
 }*/
 
-DIV#fec_breadcrumbs {
+DIV#fec_breadcrumbs, DIV#breadcrumbs {
 	margin: 73px 0px 33px 100px;
 	padding-left: 12px;
 	padding-bottom: 6px;

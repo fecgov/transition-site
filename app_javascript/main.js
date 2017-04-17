@@ -968,8 +968,8 @@
             });
             new skipNav.Skipnav('.skip-nav','main');
             new siteNav.SiteNav('.js-site-nav',{
-                cmsUrl: '',
-                webAppUrl: window.FEC_APP_URL,
+                cmsUrl: 'https://beta.fec.gov',
+                webAppUrl: 'https://beta.fec.gov/data',
                 transitionUrl: window.TRANSITION_URL
             });
             new toc.TOC('.js-toc');
